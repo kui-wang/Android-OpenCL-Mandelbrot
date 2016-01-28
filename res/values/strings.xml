@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MandelOpenCL</string>
+    <string name="MandelOpenCL">MandelOpenCL</string>
+	<string name="button_calculate">Calculate</string>
+	<string-array name="resolution">
+		<item>1024x1024</item>
+		<item>2048x2048</item>
+		<item>4096x4096</item>
+	</string-array>
+	<string-array name="workload">
+		<item>100%</item>
+		<item>75%</item>
+		<item>50%</item>
+		<item>25%</item>
+		<item>0%</item>
+	</string-array>
+</resources>

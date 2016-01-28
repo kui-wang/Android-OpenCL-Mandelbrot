@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ImageView
+			android:id="@+id/image_view"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+    		android:layout_weight="7"/>
+		<LinearLayout
+    		android:orientation="horizontal"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content">
+				<Spinner
+    				android:id="@+id/resolution"
+    				android:layout_width="0dp"
+					android:layout_weight="1"
+    				android:layout_height="wrap_content" />
+				<Spinner
+    				android:id="@+id/workload"
+    				android:layout_width="0dp"
+					android:layout_weight="1"
+    				android:layout_height="wrap_content" />
+				<Button
+    				android:layout_width="0dp"
+					android:layout_weight="1"
+        			android:layout_height="wrap_content"
+        			android:text="@string/button_calculate" 
+					android:onClick="reCaculate"/>
+		</LinearLayout>
+		<TextView
+			android:id="@+id/text_view"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:textSize="15sp"/>
+		<TextView
+			android:id="@+id/server_response"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:textSize="15sp"/>
+</LinearLayout>
